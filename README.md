@@ -1,19 +1,40 @@
-# mariquita-reservass
-# Sistema de Gestão - Chácara Mariquita
+# Sistema Chácara Mariquita
 
-## Sobre o projeto
+Sistema desenvolvido em linguagem C para gerenciar as reservas da Chácara Mariquita.
 
-Este projeto está sendo desenvolvido em C com o objetivo de automatizar o gerenciamento da Chácara Mariquita.
+Este projeto está sendo desenvolvido como parte do meu portfólio para ingresso em um estágio na área de Desenvolvimento de Software.
 
-O sistema permitirá controlar:
+---
 
-- Clientes
+## Objetivos
+
+O sistema permitirá gerenciar:
+
+- Cadastro de clientes
 - Reservas
 - Pagamentos
-- Contratos
 - Relatórios
+- Controle de disponibilidade
+- Histórico de contratos
 
-O projeto está sendo desenvolvido durante minhas férias como forma de aprimorar meus conhecimentos em programação e fortalecer meu portfólio para estágio em Ciência da Computação.
+---
+
+## Funcionalidades implementadas
+
+### Sprint 1
+- Estrutura inicial do projeto
+- Organização das pastas
+
+### Sprint 2
+- Menu principal
+- Navegação entre módulos
+
+### Sprint 3
+- Cadastro de clientes
+- Estrutura `Cliente`
+- Cadastro de até 100 clientes
+- Uso de `fgets()`
+- Validação do limite máximo de clientes
 
 ---
 
@@ -26,37 +47,35 @@ O projeto está sendo desenvolvido durante minhas férias como forma de aprimora
 
 ---
 
-## Funcionalidades
+## Estrutura do projeto
 
-### Sprint 1
-- Estrutura inicial do projeto
+```
+mariquita-reservas/
+│
+├── assets/
+├── docs/
+├── src/
+│   └── main.c
+├── README.md
+└── CHANGELOG.md
+```
 
-### Sprint 2
-- Menu Principal
-- Menu de Clientes
+---
 
-### Sprint 3 ✅
-- Cadastro de clientes
-- Cadastro utilizando `struct`
-- Vetor para até 100 clientes
-- Validação do limite de clientes
-- Navegação utilizando `do...while`
-- Entrada de dados utilizando `fgets()`
-
-### Próximas Sprints
+## Próximas funcionalidades
 
 - Listagem de clientes
 - Busca de clientes
-- Edição de clientes
-- Exclusão de clientes
-- Reservas
-- Pagamentos
+- Editar clientes
+- Excluir clientes
+- Cadastro de reservas
+- Cadastro de pagamentos
 - Relatórios
-- Banco de Dados
 
 ---
 
 ## Autor
 
-Igor Nogueira
-Estudante de Ciência da Computação - PUC Goiás
+Igor Alves Nogueira
+
+Aluno de Ciência da Computação - PUC Goiás
