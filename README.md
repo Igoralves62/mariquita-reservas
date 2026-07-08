@@ -1,44 +1,40 @@
-# Sistema Chácara Mariquita
+# 🌿 Sistema Chácara Mariquita
 
-Sistema desenvolvido em linguagem C para gerenciar as reservas da Chácara Mariquita.
+Sistema desenvolvido em **linguagem C** para gerenciar reservas, clientes, pagamentos e relatórios da **Chácara Mariquita**.
 
-Este projeto está sendo desenvolvido como parte do meu portfólio para ingresso em um estágio na área de Desenvolvimento de Software.
-
----
-
-## Objetivos
-
-O sistema permitirá gerenciar:
-
-- Cadastro de clientes
-- Reservas
-- Pagamentos
-- Relatórios
-- Controle de disponibilidade
-- Histórico de contratos
+Este projeto está sendo desenvolvido como parte do meu portfólio para ingresso em um estágio na área de Desenvolvimento de Software, aplicando conceitos aprendidos durante o curso de Ciência da Computação na PUC Goiás.
 
 ---
 
-## Funcionalidades implementadas
+## 📌 Objetivo
 
-### Sprint 1
-- Estrutura inicial do projeto
-- Organização das pastas
+O objetivo do sistema é informatizar todo o processo de gerenciamento da Chácara Mariquita, permitindo controlar clientes, reservas, pagamentos e contratos de forma simples e organizada.
 
-### Sprint 2
-- Menu principal
+---
+
+## 🚀 Funcionalidades
+
+### ✅ Sprint 1 - Estrutura do Projeto
+- Criação do repositório GitHub
+- Organização das pastas do projeto
+- Configuração inicial em C
+
+### ✅ Sprint 2 - Menu Principal
+- Menu principal do sistema
 - Navegação entre módulos
+- Organização em funções
 
-### Sprint 3
-- Cadastro de clientes
-- Estrutura `Cliente`
+### ✅ Sprint 3 - Cadastro de Clientes
 - Cadastro de até 100 clientes
-- Uso de `fgets()`
+- Estrutura `Cliente`
+- Armazenamento em vetor
+- Uso de `fgets()` para leitura de dados
 - Validação do limite máximo de clientes
+- Retorno automático ao menu
 
 ---
 
-## Tecnologias
+## 🛠 Tecnologias utilizadas
 
 - Linguagem C
 - Git
@@ -47,7 +43,7 @@ O sistema permitirá gerenciar:
 
 ---
 
-## Estrutura do projeto
+## 📁 Estrutura do Projeto
 
 ```
 mariquita-reservas/
@@ -62,20 +58,36 @@ mariquita-reservas/
 
 ---
 
-## Próximas funcionalidades
+## 📅 Próximas funcionalidades
 
-- Listagem de clientes
-- Busca de clientes
-- Editar clientes
-- Excluir clientes
-- Cadastro de reservas
-- Cadastro de pagamentos
-- Relatórios
+- [ ] Listar clientes
+- [ ] Buscar clientes
+- [ ] Editar clientes
+- [ ] Excluir clientes
+- [ ] Cadastro de reservas
+- [ ] Controle de disponibilidade
+- [ ] Cadastro de pagamentos
+- [ ] Relatórios
+- [ ] Banco de Dados
 
 ---
 
-## Autor
+## 📚 Aprendizados aplicados
 
-Igor Alves Nogueira
+Durante o desenvolvimento deste projeto estão sendo praticados conceitos como:
 
-Aluno de Ciência da Computação - PUC Goiás
+- Structs
+- Vetores
+- Funções
+- Modularização
+- Manipulação de Strings
+- Git e GitHub
+- Boas práticas de programação
+
+---
+
+## 👨‍💻 Autor
+
+**Igor Alves Nogueira**
+
+🎓 Ciência da Computação — PUC Goiás
